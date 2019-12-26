@@ -13,7 +13,7 @@
         <div class="container">
             <div class="row h-100">
                 <div class="col-12 my-auto text-center">
-                    <p><span id="time-hour"></span><span class="blink">:</span><span id="time-minutes"></span></p>
+                    <p id="time"></p>
                     <p id="day"></p>
                     <p>Philadelphia, PA</p>
                 </div>
@@ -21,8 +21,7 @@
         </div>
     </body>
     <script>
-        document.getElementById("time-hour").innerHTML = moment().tz('America/New_York').format('h');
-        document.getElementById("time-minutes").innerHTML = moment().tz('America/New_York').format('mm A');
+        document.getElementById("time").innerHTML = moment().tz('America/New_York').format('h:mm A');
         document.getElementById("day").innerHTML = moment().tz('America/New_York').format('[On a ] dddd');
     </script>
 </html>

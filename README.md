@@ -7,4 +7,4 @@ This is a web version of my [Always Sunny digital clock android app](https://git
 
 ![screenshot](screenshot.png)
 
-it lives [here](https://always-sunny-clock.netlify.com/) for now.
+It lives [here](https://always-sunny-clock.netlify.com/) for now.
